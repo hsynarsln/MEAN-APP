@@ -48,6 +48,7 @@ exports.addPost = (req, res, next) => {
 
 exports.updatePost = (req, res, next) => {
   let imagePath = req.body.imagePath;
+  // console.log(req.body);
   if (req.body) {
     const url = req.protocol + "://" + req.get("host");
     imagePath = url + "/images/" + req.file.filename;
