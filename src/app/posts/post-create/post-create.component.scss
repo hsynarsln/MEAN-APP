@@ -1,0 +1,31 @@
+mat-card {
+  width: 80%;
+  margin: auto;
+  mat-spinner {
+    margin: auto;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    mat-form-field {
+      textarea {
+        width: 100%;
+      }
+    }
+    div {
+      input {
+        visibility: hidden;
+      }
+    }
+    .image-preview {
+      height: 5rem;
+      margin: 1rem 0;
+      img {
+        height: 100%;
+      }
+    }
+    button {
+      width: 8em;
+    }
+  }
+}
